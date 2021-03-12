@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face {
+    font-family: Winter Candy;
+    src: url("./Winter\ Candy.otf") format("opentype");
+    src: url("./Winter\ Candy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Buckley;
+    src: url("./Buckley.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Bornywale;
+    src: url("./Bornywale.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Locanita;
+    src: url("./Locanita.otf") format("opentype");
+    src: url("./Locanita.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: Winter Candy;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: Bornywale;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: Locanita;
+    font-size: 3rem;
+}
+
+p {
+    font-family: Buckley;
+    font-size: 2rem;
+}
