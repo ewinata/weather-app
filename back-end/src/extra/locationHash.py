@@ -13,7 +13,10 @@ from urllib.request import Request, urlopen
 from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
 
 
-
+'''
+    This code is run separately to store all url hashes of www.weather.com
+    resulting from different cities
+'''
 #This code just aims to store all hash values resulting from different zip codes / locations
 #From www.weather.com
 
@@ -98,6 +101,7 @@ def generateLocationHash(CITY_LIST):
             continue
 
         LOCATION_DICT[city] = [hourly_url + loc_hash, today_url + loc_hash, ten_day_url + loc_hash]
+        # Logs after every 20th iteration
         if iterator%20==0:
             print('Currently done with iteration number: ' + str(iterator))
         iterator+=1
@@ -127,3 +131,4 @@ if __name__ == '__main__':
     storeLocationHash(LOCATION_DICT)
     print('Done storing location hash into csv')
     outPutMissingValues(MISSING_SET)
+    print('Done storing failed cities')

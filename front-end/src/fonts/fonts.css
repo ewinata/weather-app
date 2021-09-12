@@ -1,0 +1,50 @@
+/* Fonts */
+@font-face {
+    font-family: Raleway ExtraBold;
+    src: url("./Raleway-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Raleway Light;
+    src: url("./Raleway-Light.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, p {
+    text-align: center;
+}
+
+/* Page Titles */
+h1 {
+    font-family: Raleway ExtraBold;
+    font-size: 5rem;
+}
+
+/* Paragraph Titles */
+h2 {
+    font-family: Raleway ExtraBold;
+    font-size: 3rem;
+}
+
+/* Bigger Text Paragraph */
+h3 {
+    font-family: Raleway Light;
+    font-size: 3rem;
+}
+
+/* Navbar Items */
+h4 {
+    font-family: Raleway ExtraBold;
+    font-size: 2rem;
+}
+
+/* Card Items */
+h5 {
+    font-family: Raleway ExtraBold;
+    font-size: 1rem;
+}
+
+/* Default Text Paragraph */
+p {
+    font-family: Raleway Light;
+    font-size: 1rem;
+}
