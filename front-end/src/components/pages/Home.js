@@ -48,6 +48,8 @@ export default class Home extends Component {
                 fetch(url)
                     .then(res => res.json())
                     .then((result) => {
+                        // Get data from back end
+                        fetch('/daily/' + result.city).then(res => res.json()).then((result) => {console.log(result)});
                         this.setState({
                             isLoaded: true,
                             location: {
@@ -56,14 +58,13 @@ export default class Home extends Component {
                                 city: result.city,
                             }
                         })
-                        
-        // Get data from back end
-        //fetch('/daily/' + this.state.location.city).then(res => res.json()).then((result) => {console.log(result)});
                     });
             });
         } else {
             // Then geolocation is not activated
             // Set default city location to Seattle
+            // Get data from back end
+            fetch('/daily/Seattle').then(res => res.json()).then((result) => {console.log(result)});
             this.setState({ 
                 isLoaded: true,
                 geolocation: false, 
