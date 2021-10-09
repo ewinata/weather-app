@@ -1,7 +1,5 @@
 // CSS
 import './App.css';
-import './fonts/fonts.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 // Router
 import {
   BrowserRouter as Router,
@@ -17,6 +15,7 @@ import Introduction from './components/pages/Introduction';
 import Feature from './components/pages/Feature';
 import Search from './components/pages/Search';
 import Result from './components/pages/Result';
+import { Container, Row, Col } from 'react-bootstrap';
 
 /**
  *  This file is responsible for routing and
@@ -70,7 +69,13 @@ function MyRouter() {
           {addPageSkeleton(<Result />)}
         </Route>
         <Route path="/">
-          <Introduction />
+          <Container fluid>
+            <Row className="align-items-center introduction" data-fullscreen >
+              <Col>
+                <Introduction />
+              </Col>
+            </Row>
+          </Container>
         </Route>
       </Switch>
     </Router>

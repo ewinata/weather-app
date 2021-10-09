@@ -5,17 +5,19 @@ import Nav from 'react-bootstrap/Nav';
 // Fontawesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudSunRain, faHome } from '@fortawesome/free-solid-svg-icons';
+// Stylesheet imports
+import './NavBar.css';
 
 export default function NavBar() {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar>
             <Navbar.Brand href="/home">
-                <h1><FontAwesomeIcon icon={faCloudSunRain} /> Weather App</h1>
+                <h3 data-hover-opacity="decrease"><FontAwesomeIcon icon={faCloudSunRain} /> WeatheRecommender</h3>
             </Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>
-                <Nav.Link href="/about"><h4>About</h4></Nav.Link>
-                <Nav.Link href="/home"><h4><FontAwesomeIcon icon={faHome} /> Home</h4></Nav.Link>
+                <Nav.Link href="/about"><h4 data-font-color="black" data-hover-opacity="decrease">About</h4></Nav.Link>
+                <Nav.Link href="/home"><h4 data-font-color="black" data-hover-opacity="decrease"><FontAwesomeIcon icon={faHome} /> Home</h4></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

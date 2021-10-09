@@ -18,6 +18,9 @@ Setup environment:
 7. python -m pip install lxml
 8. python -m pip install selenium
 9. python -m pip install http-request-randomizer
+10. python -m pip install flask-restful
+11. python -m pip install -U marshmallow
+12. python -m pip install -U flask-cors
 
 
 Run environment:

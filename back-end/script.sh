@@ -18,6 +18,9 @@ then
     python -m pip install lxml
     python -m pip install selenium
     python -m pip install http-request-randomizer
+    python -m pip install flask-restful
+    python -m pip install -U marshmallow
+    python -m pip install -U flask-cors
     deactivate
     echo "finished setting up new venv"
 elif [ "$1" = "-run" ] || [ "$1" = "run" ] || [ "$1" = "-r" ] || [ "$1" = "r" ]

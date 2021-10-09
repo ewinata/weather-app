@@ -9,3 +9,5 @@ export function Result() {
         </React.Fragment>
     );
 }
+
+export default Result;

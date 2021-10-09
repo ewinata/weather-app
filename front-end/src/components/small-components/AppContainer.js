@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import Container from 'react-bootstrap/Container';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class AppContainer extends React.Component {
     constructor(props) {
@@ -12,14 +12,20 @@ export default class AppContainer extends React.Component {
 
     render() {
         return(
-            <div className="app-container">
-                <NavBar />
-                <Container>
-                    <div className="box-container">
-                        {this.state.childComponent}
-                    </div>
-                </Container>
-            </div>
+            <Container fluid className="main-app">
+                <Row>
+                    <Col className="p-0">
+                        <NavBar />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col className="p-0">
+                        <div className="box-container">
+                            {this.state.childComponent}
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         );
     };
 };

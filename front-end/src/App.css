@@ -1,34 +1,12 @@
-.box-container {
-  opacity: 0.7;
-  background-color: white;
+.introduction-box-container {
+  background-color: #fff;
   border-style: solid;
-  border-radius: 5rem;
+  border-radius: 3rem;
   border-color: black;
-  margin: 5rem;
   padding: 2rem;
 }
-
-.introduction-page {
-  margin: 30vh;
-}
-
-.onhover {
-  color: rgb(1, 33, 92);
-}
-
-.onhover:hover {
-  opacity: 0.9;
-  color: #0f4229;
-}
-
-/*
-.home-data {
-  position: absolute;
-}
-*/
-
 .card {
-  background-image: url("./img/bg/card-bg.jpg");
+  background-color: #2460A7FF;
   background-size: cover;
   place-items: center;
 }
@@ -36,4 +14,9 @@
 .card-content {
   opacity: 1;
   font-size: 8em;
+}
+
+.search-bar {
+  background-color: #fff;
+  border-radius: 0.5rem;
 }

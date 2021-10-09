@@ -1,0 +1,364 @@
+{
+    "dayTemp": [
+        -1,
+        72,
+        81,
+        73,
+        72,
+        75,
+        78,
+        82,
+        80,
+        76,
+        73,
+        72,
+        74,
+        74,
+        75
+    ],
+    "nightTemp": [
+        55,
+        54,
+        55,
+        53,
+        48,
+        50,
+        54,
+        55,
+        56,
+        55,
+        55,
+        56,
+        57,
+        57,
+        56
+    ],
+    "dayWeather": [
+        "--",
+        "Sunny",
+        "Sunny",
+        "Sunny",
+        "Sunny",
+        "Sunny",
+        "Sunny",
+        "Mostly Sunny",
+        "Mostly Sunny",
+        "Mostly Sunny",
+        "Mostly Sunny",
+        "Partly Cloudy",
+        "Sunny",
+        "Mostly Sunny",
+        "Partly Cloudy"
+    ],
+    "nightWeather": [
+        "Partly Cloudy Night",
+        "Clear Night",
+        "Clear Night",
+        "Clear Night",
+        "Clear Night",
+        "Clear Night",
+        "Clear Night",
+        "Mostly Clear Night",
+        "Partly Cloudy Night",
+        "Mostly Clear Night",
+        "Mostly Clear Night",
+        "Partly Cloudy Night",
+        "Mostly Clear Night",
+        "Mostly Clear Night",
+        "Mostly Clear Night"
+    ],
+    "dayWind": [
+        {
+            "direction": "-",
+            "speed": -1
+        },
+        {
+            "direction": "SW",
+            "speed": 9
+        },
+        {
+            "direction": "SSW",
+            "speed": 7
+        },
+        {
+            "direction": "S",
+            "speed": 8
+        },
+        {
+            "direction": "WNW",
+            "speed": 7
+        },
+        {
+            "direction": "WSW",
+            "speed": 7
+        },
+        {
+            "direction": "SSW",
+            "speed": 6
+        },
+        {
+            "direction": "SW",
+            "speed": 5
+        },
+        {
+            "direction": "S",
+            "speed": 5
+        },
+        {
+            "direction": "S",
+            "speed": 6
+        },
+        {
+            "direction": "S",
+            "speed": 6
+        },
+        {
+            "direction": "S",
+            "speed": 5
+        },
+        {
+            "direction": "SW",
+            "speed": 5
+        },
+        {
+            "direction": "SSW",
+            "speed": 6
+        },
+        {
+            "direction": "S",
+            "speed": 5
+        }
+    ],
+    "nightWind": [
+        {
+            "direction": "SE",
+            "speed": 4
+        },
+        {
+            "direction": "ENE",
+            "speed": 5
+        },
+        {
+            "direction": "ESE",
+            "speed": 4
+        },
+        {
+            "direction": "NNW",
+            "speed": 13
+        },
+        {
+            "direction": "NNE",
+            "speed": 5
+        },
+        {
+            "direction": "NNE",
+            "speed": 5
+        },
+        {
+            "direction": "NNE",
+            "speed": 4
+        },
+        {
+            "direction": "NE",
+            "speed": 4
+        },
+        {
+            "direction": "SE",
+            "speed": 4
+        },
+        {
+            "direction": "SE",
+            "speed": 4
+        },
+        {
+            "direction": "SSE",
+            "speed": 4
+        },
+        {
+            "direction": "SE",
+            "speed": 4
+        },
+        {
+            "direction": "SE",
+            "speed": 4
+        },
+        {
+            "direction": "ESE",
+            "speed": 4
+        },
+        {
+            "direction": "ESE",
+            "speed": 4
+        }
+    ],
+    "dayPrecipitation": [
+        -1,
+        4,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        11,
+        3,
+        20,
+        13
+    ],
+    "nightPrecipitation": [
+        5,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        15,
+        13,
+        22,
+        22,
+        22
+    ],
+    "dayHumidity": [
+        "--",
+        "56%",
+        "44%",
+        "62%",
+        "22%",
+        "21%",
+        "22%",
+        "21%",
+        "29%",
+        "40%",
+        "51%",
+        "53%",
+        "51%",
+        "48%",
+        "49%"
+    ],
+    "nightHumidity": [
+        "72%",
+        "68%",
+        "66%",
+        "25%",
+        "39%",
+        "39%",
+        "39%",
+        "43%",
+        "54%",
+        "63%",
+        "73%",
+        "71%",
+        "68%",
+        "67%",
+        "69%"
+    ],
+    "sunriseTime": [
+        "--",
+        "6:53 am",
+        "6:54 am",
+        "6:55 am",
+        "6:56 am",
+        "6:56 am",
+        "6:57 am",
+        "6:58 am",
+        "6:59 am",
+        "7:00 am",
+        "7:00 am",
+        "7:01 am",
+        "7:02 am",
+        "7:03 am",
+        "7:04 am"
+    ],
+    "sunsetTime": [
+        "--",
+        "6:26 pm",
+        "6:24 pm",
+        "6:23 pm",
+        "6:22 pm",
+        "6:21 pm",
+        "6:19 pm",
+        "6:18 pm",
+        "6:17 pm",
+        "6:16 pm",
+        "6:14 pm",
+        "6:13 pm",
+        "6:12 pm",
+        "6:11 pm",
+        "6:10 pm"
+    ],
+    "moonriseTime": [
+        "9:21 am",
+        "10:34 am",
+        "11:46 am",
+        "12:55 pm",
+        "1:56 pm",
+        "2:49 pm",
+        "3:33 pm",
+        "4:11 pm",
+        "4:43 pm",
+        "5:12 pm",
+        "5:39 pm",
+        "6:06 pm",
+        "6:33 pm",
+        "7:01 pm",
+        "7:32 pm"
+    ],
+    "moonsetTime": [
+        "8:12 pm",
+        "8:55 pm",
+        "9:45 pm",
+        "10:43 pm",
+        "11:46 pm",
+        "--",
+        "12:52 am",
+        "1:58 am",
+        "3:02 am",
+        "4:04 am",
+        "5:04 am",
+        "6:02 am",
+        "7:00 am",
+        "7:57 am",
+        "8:55 am"
+    ],
+    "dayUvIndex": [
+        -1,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5
+    ],
+    "nightUvIndex": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}
